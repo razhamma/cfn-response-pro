@@ -1,4 +1,5 @@
-exports.SUCCESS = "SUCCESS";
+
+rts.SUCCESS = "SUCCESS";
 exports.FAILED = "FAILED";
  
 exports.send = (event, context, responseStatus, responseData, physicalResourceId) => {
@@ -23,4 +24,4 @@ exports.send = (event, context, responseStatus, responseData, physicalResourceId
 	        request.end();
       }))
       .catch(reject);
-    })};
+})};
