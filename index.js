@@ -1,5 +1,5 @@
 
-rts.SUCCESS = "SUCCESS";
+exports.SUCCESS = "SUCCESS";
 exports.FAILED = "FAILED";
  
 exports.send = (event, context, responseStatus, responseData, physicalResourceId) => {
