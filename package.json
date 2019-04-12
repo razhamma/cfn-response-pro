@@ -1,5 +1,5 @@
 {
-  "name": "cfn-response-pro",
+  "name": "cfn-response-pro-test",
   "version": "1.0.0",
   "description": "testing to make cfn-response module to work with asynchronous calls end to end",
   "main": "index.js",
