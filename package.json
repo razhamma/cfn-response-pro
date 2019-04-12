@@ -1,10 +1,10 @@
 {
-  "name": "cfn-response-pro-test",
+  "name": "cfn-response-pro",
   "version": "1.0.0",
   "description": "testing to make cfn-response module to work with asynchronous calls end to end",
   "main": "index.js",
   "scripts": {
-    "test": "var cfnresponse = require(\"cfn-response-pro\")"
+    "test": "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/razhamma/cfn-response-pro/issues"
   },
-  "homepage": "https://github.com/razhamma/cfn-response-pro#readme"
+  "homepage": "https://github.com/razhamma/cfn-response-pro#readme",
+  "engines" : {
+       "node": ">=8.1.0"
+  }
 }
